@@ -7,18 +7,11 @@ class Car {
 private:
 	int doors;
 public:
-	Car() {
-		doors = 0;
-	}
-	Car(int d) {
-		doors = d;
-	}
-	int getDoors() {
-		return doors;
-	}
-	void setDoors(int d) {
-		doors = d;
-	}
+	Car();
+	Car(int d);
+	int getDoors();
+	void setDoors(int d);
+	void displayInfo();
 
 };
 

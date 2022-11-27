@@ -6,15 +6,9 @@ class Truck {
 private:
 	double towingCapacity;
 public:
-	Truck() {
-		towingCapacity = 0;
-	}
-	double getTowingCapacity() {
-		return towingCapacity;
-	}
-	void setTowingCapacity(double t) {
-		towingCapacity = t;
-	}
+	Truck();
+	double getTowingCapacity();
+	void setTowingCapacity(double t);
 };
 
 
