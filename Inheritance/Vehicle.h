@@ -8,7 +8,10 @@ private:
 	int year;
 
 public:
-	Vehicle();
+	Vehicle() {
+		manufacturer = " ";
+		year = 0;
+	}
 	string getManufacturer() {
 		return manufacturer;
 	}
