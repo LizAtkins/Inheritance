@@ -4,9 +4,10 @@
 
 using namespace std;
 
-Vehicle:: Vehicle() {
-	manufacturer = " ";
-	year = 0;
+
+Vehicle::Vehicle(string m, int y) {
+		manufacturer = m;
+		year = y;
 }
 string Vehicle:: getManufacturer() {
 	return manufacturer;
@@ -20,7 +21,7 @@ int Vehicle:: getYear() {
 void Vehicle:: setYear(int y) {
 	year = y;
 }
-void Vehicle::displayInfo() {
+void Vehicle::displayInfo () {
 	cout << "\nManufacturer: " << manufacturer;
 	cout << "\nYear Built: " << year;
 }

@@ -16,45 +16,36 @@ int main() {
 	int tempDoors;
 	double tempTowing;
 
-	Vehicle test;
-	Car car;
-	Truck truck;
-
 	cout << "\nVehicle Program";
 	cout << endl << endl;
 	cout << "Vehicle:";
 	cout << "\nEnter the manufacturer: ";
 	getline(cin, tempMan);
-	test.setManufacturer(tempMan);
 	cout << "Year built: ";
 	cin >> tempYear;
-	test.setYear(tempYear);
+	Vehicle test(tempMan, tempYear);
 	test.displayInfo();
 
 	cout << "\n\nCar:";
 	cout << "\nEnter the manufacturer: ";
 	cin.ignore();
-	getline(cin, tempMan);
-	car.setManufacturer(tempMan);
+	getline(cin, tempMan);;
 	cout << "Year built: ";
 	cin >> tempYear;
-	car.setYear(tempYear);
 	cout << "Number of doors: ";
 	cin >> tempDoors;
-	car.setDoors(tempDoors);
+	Car car(tempDoors, tempMan, tempYear);
 	car.displayInfo();
 
 	cout << "\n\nTruck:";
 	cout << "\nEnter the manufacturer: ";
 	cin.ignore();
 	getline(cin, tempMan);
-	truck.setManufacturer(tempMan);
 	cout << "Year built: ";
 	cin >> tempYear;
-	truck.setYear(tempYear);
 	cout << "Towing capacity: ";
 	cin >> tempTowing;
-	truck.setTowingCapacity(tempTowing);
+	Truck truck(tempTowing, tempMan, tempYear);
 	truck.displayInfo();
 
 

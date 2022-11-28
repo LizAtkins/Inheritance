@@ -8,11 +8,12 @@ class Car : public Vehicle {
 private:
 	int doors;
 public:
-	Car();
-	Car(int d);
+	Car(int d, string m, int y) : Vehicle(m, y) {
+		doors = d;
+	}
 	int getDoors();
 	void setDoors(int d);
-	void displayInfo();
+	virtual void displayInfo();
 
 };
 

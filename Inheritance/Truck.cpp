@@ -4,9 +4,7 @@
 
 using namespace std;
 
-Truck:: Truck() {
-	towingCapacity = 0;
-}
+
 double Truck:: getTowingCapacity() {
 	return towingCapacity;
 }
