@@ -19,5 +19,5 @@ void Car:: setDoors(int d) {
 }
 
 void Car::displayCarInfo() {
-	cout << "Doors: " << doors;
+	cout << "\nDoors: " << doors;
 }

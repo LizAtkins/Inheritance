@@ -14,6 +14,6 @@ void Truck:: setTowingCapacity(double t) {
 	towingCapacity = t;
 
 }
-void Truck::displayInfo() {
-
+void Truck:: displayTruckInfo() {
+	cout << "\nTowing Capacity: " << towingCapacity;
 }

@@ -21,6 +21,6 @@ void Vehicle:: setYear(int y) {
 	year = y;
 }
 void Vehicle::displayInfo() {
-	cout << "\nManufacturer:" << manufacturer;
-	cout << "\nYear Built:" << year;
+	cout << "\nManufacturer: " << manufacturer;
+	cout << "\nYear Built: " << year;
 }
