@@ -4,16 +4,6 @@
 
 using namespace std;
 
-int main() {
-
-
-
-
-
-	cout << endl << endl;
-	system("pause");
-	return 0;
-}
 
 Car:: Car() {
 	doors = 0;

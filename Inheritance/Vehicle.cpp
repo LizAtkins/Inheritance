@@ -4,15 +4,6 @@
 
 using namespace std;
 
-int main() {
-
-
-
-	cout << endl << endl;
-	system("pause");
-	return 0;
-}
-
 Vehicle:: Vehicle() {
 	manufacturer = " ";
 	year = 0;
