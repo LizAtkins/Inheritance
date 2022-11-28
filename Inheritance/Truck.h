@@ -11,7 +11,7 @@ public:
 	Truck();
 	double getTowingCapacity();
 	void setTowingCapacity(double t);
-	void displayTruckInfo();
+	void displayInfo();
 };
 
 

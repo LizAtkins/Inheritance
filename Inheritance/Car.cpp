@@ -18,6 +18,8 @@ void Car:: setDoors(int d) {
 	doors = d;
 }
 
-void Car::displayCarInfo() {
+void Car::displayInfo() {
+	cout << "\nManufacturer: " << manufacturer;
+	cout << "\nYear Built: " << year;
 	cout << "\nDoors: " << doors;
 }

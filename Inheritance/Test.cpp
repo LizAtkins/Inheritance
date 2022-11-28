@@ -43,7 +43,6 @@ int main() {
 	cin >> tempDoors;
 	car.setDoors(tempDoors);
 	car.displayInfo();
-	car.displayCarInfo();
 
 	cout << "\n\nTruck:";
 	cout << "\nEnter the manufacturer: ";
@@ -57,7 +56,6 @@ int main() {
 	cin >> tempTowing;
 	truck.setTowingCapacity(tempTowing);
 	truck.displayInfo();
-	truck.displayTruckInfo();
 
 
 	cout << endl << endl;
