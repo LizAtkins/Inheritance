@@ -3,7 +3,7 @@
 #define VEHICLE_H
 using namespace std;
 class Vehicle {
-private:
+protected:
 	string manufacturer;
 	int year;
 

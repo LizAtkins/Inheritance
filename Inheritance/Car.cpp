@@ -18,6 +18,6 @@ void Car:: setDoors(int d) {
 	doors = d;
 }
 
-void Car::displayInfo() {
-
+void Car::displayCarInfo() {
+	cout << "Doors: " << doors;
 }
