@@ -24,7 +24,7 @@ int main() {
 	cout << endl << endl;
 	cout << "Vehicle:";
 	cout << "\nEnter the manufacturer: ";
-	cin >> tempMan;
+	getline(cin, tempMan);
 	test.setManufacturer(tempMan);
 	cout << "Year built: ";
 	cin >> tempYear;
@@ -33,7 +33,8 @@ int main() {
 
 	cout << "\n\nCar:";
 	cout << "\nEnter the manufacturer: ";
-	cin >> tempMan;
+	cin.ignore();
+	getline(cin, tempMan);
 	car.setManufacturer(tempMan);
 	cout << "Year built: ";
 	cin >> tempYear;
@@ -46,7 +47,8 @@ int main() {
 
 	cout << "\n\nTruck:";
 	cout << "\nEnter the manufacturer: ";
-	cin >> tempMan;
+	cin.ignore();
+	getline(cin, tempMan);
 	truck.setManufacturer(tempMan);
 	cout << "Year built: ";
 	cin >> tempYear;
