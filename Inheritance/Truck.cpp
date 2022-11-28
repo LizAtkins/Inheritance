@@ -1,7 +1,6 @@
-#include "Vehicle.h";
-#include "Truck.h";
 #include <iostream>
 #include <string>
+#include "Truck.h"
 
 using namespace std;
 
@@ -24,5 +23,8 @@ double Truck:: getTowingCapacity() {
 }
 void Truck:: setTowingCapacity(double t) {
 	towingCapacity = t;
+
+}
+void Truck::displayInfo() {
 
 }

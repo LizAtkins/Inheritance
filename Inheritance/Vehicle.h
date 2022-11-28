@@ -1,34 +1,20 @@
 #pragma once
 #ifndef VEHICLE_H 
 #define VEHICLE_H
-
+using namespace std;
 class Vehicle {
 private:
 	string manufacturer;
 	int year;
 
 public:
-	Vehicle() {
-		manufacturer = " ";
-		year = 0;
-	}
-	string getManufacturer() {
-		return manufacturer;
-	}
-	void setManufacturer(string m)  {
-		manufacturer = m;
-	}
-	int getYear() {
-		return year;
-	}
-	void setYear(int y) {
-		year = y;
-	}
+	Vehicle();
+	string getManufacturer();
+	void setManufacturer(string m);
+	int getYear();
+	void setYear(int y);
+	void displayInfo();
 };
-
-
-
-
 
 
 #endif

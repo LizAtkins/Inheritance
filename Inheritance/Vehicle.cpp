@@ -1,12 +1,10 @@
-#include "Vehicle.h";
 #include <iostream>
 #include <string>
+#include "Vehicle.h"
 
 using namespace std;
 
 int main() {
-
-
 
 
 
@@ -30,4 +28,8 @@ int Vehicle:: getYear() {
 }
 void Vehicle:: setYear(int y) {
 	year = y;
+}
+void Vehicle::displayInfo() {
+	cout << "\nManufacturer:" << manufacturer;
+	cout << "\nYear Built:" << year;
 }
